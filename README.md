@@ -67,14 +67,14 @@
 #### Get all employees details 
 2. Open Postman and make sure you have selected the "GET" method
 
-3. Enter the URL http://127.0.0.1:5000/employee in the request URL field. ()
+3. Enter the URL http://127.0.0.1:5000/employee in the request URL field. (192.168.1.101 for LAN connection)
 
 4. Click the "Send" button to send the GET request.
 
 #### Get particular employee details 
 5. Open Postman and make sure you have selected the "GET" method
 
-6. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. ()
+6. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. (192.168.1.101 for LAN connection)
 
 7. Click the "Send" button to send the GET request.
 
@@ -82,7 +82,7 @@
 #### Add new employee
 8. Open Postman and make sure you have selected the "POST" method
 
-9. Enter the URL http://127.0.0.1:5000/employee in the request URL field. ()
+9. Enter the URL http://127.0.0.1:5000/employee in the request URL field. (192.168.1.101 for LAN connection)
 
 10. Go to the "Body" tab.
 
@@ -105,14 +105,14 @@
 #### Delete employee
 15. Open Postman and make sure you have selected the "DELETE" method
 
-16. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. ()
+16. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. (192.168.1.101 for LAN connection)
 
 17. Click the "Send" button to send the DELETE request.
 
 #### Update employee
 18. Open Postman and make sure you have selected the "POST" method
 
-19. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. ()
+19. Enter the URL http://127.0.0.1:5000/employee/{employee_id} in the request URL field. (192.168.1.101 for LAN connection)
 
 20. Go to the "Body" tab.
 
