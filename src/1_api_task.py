@@ -237,7 +237,7 @@ with DAG("1_api_task", start_date=datetime(2023, 5, 27), schedule_interval=timed
     films_swapi_request >> consolidate_films_data
     consolidate_films_data >> create_films_table >> process_dim_film
     [create_films_table, create_people_table] >> create_films_people_map_table >> process_film_people_map
-    [create_films_people_map_table, process_dim_film] >> process_film_people_map
+    [create_films_people_map_table, process_dim_film,  process_dim_people] >> process_film_people_map
     people_swapi_request >> consolidate_people_data
     planets_swapi_request >> consolidate_planets_data
     [consolidate_people_data, consolidate_planets_data] >> create_people_table >> process_dim_people
